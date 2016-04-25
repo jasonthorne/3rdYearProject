@@ -1,0 +1,24 @@
+<ion-view title="Search Rules" id="page4">
+   
+    <div class="bar bar-subheader item-input-inset bar-light">
+        <label class="item-input-wrapper">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="search" placeholder="Search rules" ng-model="query">
+        </label>   
+    </div>
+    
+    <ion-content ng-controller="findCardCtrl" padding="true" class="has-subheader">
+        <ion-list>
+            <ion-item ng-repeat='item in rules' class="item-text-wrap">
+                <h2>{{item.name}}</h2>
+                <p>{{item.text}}</p>
+            </ion-item>
+        </ion-list>
+        
+    </ion-content>
+   
+</ion-view>
+
+
+
+<!-- class="item-thumbnail-left"-->

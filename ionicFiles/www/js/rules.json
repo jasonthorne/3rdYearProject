@@ -1,0 +1,94 @@
+[
+    
+        {
+            "name": "Ability",
+            "text": "Any text on a permanent (except reminder text and flavor text) tells you the permanent’s abilities. There are three kinds of abilities a permanent can have: activated abilities, static abilities, and triggered abilities. Unless they say otherwise, abilities “work” only while the permanent they’re on is on the battlefield. Once a triggered ability triggers or an activated ability is activated, it will resolve unless it’s countered; it doesn’t matter what happens to the source of the ability once the ability goes on the stack."
+        },
+        
+        {
+          "name": "Activate",
+          "text": "You activate an activated ability by putting it on the stack. You activate an ability just as you cast a spell: announce it, choose its targets, and pay its activation cost."   
+        },
+        {
+          "name": "Activated ability",
+          "text": "One of the three kinds of abilities a permanent can have. An activated ability is always written in the form “cost: effect.”"   
+        },
+        {
+          "name": "Active player",
+          "text": "The player whose turn it is. The active player always gets the first chance to cast spells and activate abilities."  
+        },
+        {
+          "name": "Deathtouch",
+          "text": "Deathtouch is a static ability that causes a creature to be destroyed as a result of having been dealt damage by a source with deathtouch. In this way, for a creature with deathtouch, any nonzero amount of damage it deals to another creature is considered enough to kill it."   
+        },
+        {
+          "name": "Defender",
+          "text": "Creatures with defender can't attack."   
+        },
+        {
+          "name": "Double strike",
+          "text": "A creature with double strike deals both first strike and normal combat damage."   
+        },
+        {
+          "name": "Enchant",
+          "text": "This ability is written Enchant (quality) and appears on Auras, a subtype of enchantments. An Aura enters the battlefield attached to a permanent with the quality of its Enchant ability, and can only be attached to a permanent with that quality. If an Aura is not attached to a permanent with the required quality (such as if the object it enchants leaves the battlefield), it is put into its owner's graveyard."   
+        },
+        {
+          "name": "Equip",
+          "text": "This ability is written Equip (cost). A player may pay the Equip cost as a sorcery (only during his or her own main phase when the stack is empty) to attach it to a creature he or she controls. That creature becomes 'equipped' and can then be referenced by the Equipment as the 'equipped creature.' If the Equipment is already attached to a creature, its controller may pay the Equip cost again to move it to another creature. However, the Equipment cannot simply be 'dropped' by the equipped creature by paying the Equip cost. When a creature leaves the battlefield or stops being a creature by some effect, any Equipment attached to it 'falls off,' becoming unattached but remaining on the battlefield. Similarly, an Equipment that becomes a creature will 'fall off' a creature it is attached to. On the other hand, Equipment does not 'fall off' if another player gains control of either the creature or the Equipment. In the first case, the original controller still controls the Equipment, and so can pay the Equip cost to move it to a creature he or she still controls. In the second case, the original controller still controls the creature, but the other player can pay the Equip cost to move the Equipment to a creature he or she controls."   
+        },
+        {
+          "name": "First strike",
+          "text": "Creatures with first strike deal damage before other creatures in combat. Therefore, if a creature with first strike deals sufficient damage to kill an opposing creature without this ability, it will not suffer any combat damage from that creature in return. First strike is often found on red and white creatures, especially soldiers and knights who carry pikes or lances."   
+        },
+        {
+          "name": "Flash",
+          "text": "Artifacts, creatures or enchantments with flash may be played any time their controller could play an instant."   
+        },
+        {
+          "name": "Flying",
+          "text": "Creatures with flying can't be blocked except by other creatures with flying and/or reach"    
+        },
+        {
+          "name": "Haste",
+          "text": "Creatures with the haste ability are able to attack and use abilities that involve the tap symbol (so cards that have abilities that simply say 'tap' may be used on the turn they are played even if they don't have haste e.g. Heritage Druid) on the turn a player gains control of them, instead of waiting until their controller's next turn (an effect dubbed 'summoning sickness' prevents a creature from attacking or using abilities with the tap symbol unless its controller controlled it since the start of their most recent turn)."   
+        },
+        {
+          "name": "Hexproof",
+          "text": "Hexproof is a static ability of permanents and players. A player or permanent with hexproof cannot be the target of spells or abilities controlled by that player's opponents (or that permanent's controller's opponents)."   
+        },
+        {
+          "name": "Indestructible",
+          "text": "A permanent with indestructible can't be destroyed by effects that say 'Destroy' (such as Doom Blade or Wrath of God) or by lethal damage. They can still be countered, exiled, returned to the hand or library, sacrificed, or killed with effects that give negative toughness. "   
+        },
+        {
+          "name": "Lifelink",
+          "text": "Permanents with lifelink cause their controller to gain life whenever they deal damage."   
+        },
+        {
+          "name": "Menace",
+          "text": "A creature with menace can't be blocked except by two or more creatures."   
+        },
+        {
+          "name": "Prowess",
+          "text": "Prowess is a triggered ability. A creature with prowess gets +1/+1 whenever a noncreature spell is cast. If a creature has multiple instances of prowess, each triggers separately."   
+        },
+        {
+          "name": "Reach",
+          "text": "Reach is an ability which allows a creature to block creatures with flying."   
+        },
+        {
+          "name": "Scry",
+          "text": "To scry X, a player looks at the top X cards of his library, then puts any number of them on the bottom of his library and the rest on top of his library in any order."   
+        },
+        {
+          "name": "Trample",
+          "text": "Creatures with trample may deal 'excess' damage to the defending player if they are blocked. For example, under normal circumstances, if a 6/3 attacker is blocked by a 1/1 creature, the attacker's 6 damage is all directed at the defending creature, despite it being only able to take 1 damage before being killed. If, however, the attacker has trample, the attacking player may choose to have the difference (in this case, 5) between the attacker's power and the defenders' total toughness 'trample over' and be assigned to the defending player; this choice is to be made by the attacking player, and circumstances can arise in which 'overkilling' the blocking creature is a more advantageous move. Even if the blocker does not take the damage (if it is prevented, for instance) the trample damage is still assigned to the defending player. Trample only applies when a creature with trample is attacking; if a 6/3 creature with trample blocks a 1/1 attacker, the blocker's extra 5 damage cannot be assigned to the attacking player."   
+        },
+        {
+          "name": "Vigilance",
+          "text": "Creatures with vigilance do not tap to attack "   
+        }
+        
+    
+]

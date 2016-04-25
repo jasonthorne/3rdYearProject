@@ -1,0 +1,24 @@
+<ion-view title="Notes" id="page3">
+    
+    <ion-content ng-controller='notesCtrl' padding="true" class="has-header">
+
+        <div class="item-input" ng-repeat="input in inputs">
+            <label class="item-input-wrapper">
+                <input type="text" placeholder="Enter note" ng-model="input.value" />
+            </label>
+            <button class="button button-small button-balanced" ng-if="$index == inputs.length - 1" ng-click="addInput()">
+                <i class="icon ion-plus"></i>
+            </button>
+            <button class="button button-small button-assertive" ng-if="$index != inputs.length - 1" ng-click="removeInput($index)">
+                <i class="icon ion-minus"></i>
+            </button>
+        </div>
+        
+    </ion-content>
+        
+</ion-view>
+
+
+
+
+<!--<div class="list list-inset">+++++++++++++++++++++++++++++++++++++++++-->

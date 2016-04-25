@@ -1,0 +1,43 @@
+<ion-view title="Scorepad" id="page2">
+    
+    <div class="bar bar-subheader">
+       <div class="button-bar">
+           <a class="button" on-touch = "minusScore('p1Score', 1)"><h4>-1</h4></a>
+           <a class="button" on-touch = "minusScore('p1Score', 5)"><h4>-5</h4></a>
+           <a class="button" on-touch = "plusScore('p1Score', 1)"><h4>+1</h4></a>
+           <a class="button" on-touch = "plusScore('p1Score', 5)"><h4>+5</h4></a> 
+       </div> 
+    </div> 
+    
+    <ion-content padding="true" class="has-header has-subheader">
+       
+            
+            <div id="p1Div" >
+                <p id="p1Score">20</p>
+            </div>
+
+
+            <button class="button icon ion-refresh" id="refresh" on-touch = "reset()"></button>
+            
+
+            <div id="p1Div">
+                <p id="p2Score">20</p>
+            </div>
+            
+            
+       
+        
+    </ion-content>
+        
+    <ion-footer-bar>
+       <div class="button-bar">
+           <a class="button" on-touch = "minusScore('p2Score', 1)"><h4>-1</h4></a>
+           <a class="button" on-touch = "minusScore('p2Score', 5)"><h4>-5</h4></a>
+           <a class="button" on-touch = "plusScore('p2Score', 1)"><h4>+1</h4></a>
+           <a class="button" on-touch = "plusScore('p2Score', 5)"><h4>+5</h4></a>
+       </div> 
+    </ion-footer-bar>
+        
+      
+    
+</ion-view>
