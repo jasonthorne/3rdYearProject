@@ -1,7 +1,7 @@
 
-#Software Design Project#
+# Software Design Project #
 
-##Jason Thorne. G00317349##
+## Jason Thorne. G00317349 ##
 
 
 
