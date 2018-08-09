@@ -1,9 +1,7 @@
 
-# Software Design Project #
+# Scorekeeping App #
 
-## Jason Thorne. G00317349 ##
-
-
+An Ionic app with server-side push notifications using Google Cloud Management.
 
 **Contents of repository:**
 
